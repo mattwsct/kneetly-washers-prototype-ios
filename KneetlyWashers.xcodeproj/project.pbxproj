@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA068DCF1DAB777000ADB952 /* FavouritesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA068DCE1DAB777000ADB952 /* FavouritesTableViewController.swift */; };
+		BA1DFBCF1DB464A70047B0AD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1DFBCE1DB464A70047B0AD /* libsqlite3.tbd */; };
+		BA283FB21DB5AF1B00BB60F1 /* SearchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA283FB11DB5AF1B00BB60F1 /* SearchingViewController.swift */; };
+		BA283FB41DB5B25800BB60F1 /* CancelWashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA283FB31DB5B25800BB60F1 /* CancelWashViewController.swift */; };
+		BA283FB61DB5D1BC00BB60F1 /* CosmosDistrib.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA283FB51DB5D1BC00BB60F1 /* CosmosDistrib.swift */; };
+		BA39397A1DC88158003C3703 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA3939791DC88158003C3703 /* CoreLocation.framework */; };
+		BA7BE5DD1DA5E32100D9AE84 /* Gibson-Bold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA7BE5D41DA4AE4900D9AE84 /* Gibson-Bold-Italic.otf */; };
+		BA7BE5DE1DA5E32100D9AE84 /* Gibson-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA7BE5D51DA4AE4900D9AE84 /* Gibson-Bold.otf */; };
+		BA7BE5DF1DA5E32100D9AE84 /* Gibson-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA7BE5D61DA4AE4900D9AE84 /* Gibson-Italic.otf */; };
+		BA7BE5E01DA5E32100D9AE84 /* Gibson-Light-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA7BE5D71DA4AE4900D9AE84 /* Gibson-Light-Italic.otf */; };
+		BA7BE5E11DA5E32100D9AE84 /* Gibson-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA7BE5D81DA4AE4900D9AE84 /* Gibson-Light.otf */; };
+		BA7BE5E21DA5E32100D9AE84 /* Gibson-Semibold-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA7BE5D91DA4AE4900D9AE84 /* Gibson-Semibold-Italic.otf */; };
+		BA7BE5E31DA5E32100D9AE84 /* Gibson-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA7BE5DA1DA4AE4900D9AE84 /* Gibson-SemiBold.otf */; };
+		BA7BE5E41DA5E32100D9AE84 /* Gibson.otf in Resources */ = {isa = PBXBuildFile; fileRef = BA7BE5DB1DA4AE4900D9AE84 /* Gibson.otf */; };
+		BA9861EE1D6AEB570076F54B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9861ED1D6AEB570076F54B /* AppDelegate.swift */; };
+		BA9861F01D6AEB570076F54B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9861EF1D6AEB570076F54B /* ViewController.swift */; };
+		BA9861F31D6AEB570076F54B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9861F11D6AEB570076F54B /* Main.storyboard */; };
+		BA9861F61D6AEB570076F54B /* KneetlyWashers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA9861F41D6AEB570076F54B /* KneetlyWashers.xcdatamodeld */; };
+		BA9861F81D6AEB570076F54B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9861F71D6AEB570076F54B /* Assets.xcassets */; };
+		BA9861FB1D6AEB570076F54B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9861F91D6AEB570076F54B /* LaunchScreen.storyboard */; };
+		BA9862061D6AEB570076F54B /* KneetlyWashersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9862051D6AEB570076F54B /* KneetlyWashersTests.swift */; };
+		BA9862111D6AEB570076F54B /* KneetlyWashersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9862101D6AEB570076F54B /* KneetlyWashersUITests.swift */; };
+		BAAC06751DB0B3D300E6CDE9 /* BadgesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAAC06741DB0B3D300E6CDE9 /* BadgesTableViewController.swift */; };
+		BAACDFE21DB606D60041D431 /* BookingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACDFE11DB606D60041D431 /* BookingsViewController.swift */; };
+		BAACDFE41DB609600041D431 /* JobRequestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACDFE31DB609600041D431 /* JobRequestViewController.swift */; };
+		BAACDFE61DB6098F0041D431 /* JobAcceptedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACDFE51DB6098F0041D431 /* JobAcceptedViewController.swift */; };
+		BAACDFE81DB60B020041D431 /* WashingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAACDFE71DB60B020041D431 /* WashingViewController.swift */; };
+		BAC16C411DAB4C26003CE2CC /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC16C401DAB4C26003CE2CC /* HistoryTableViewController.swift */; };
+		BAC688E81DAC8A0900663BEA /* DamageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC688E71DAC8A0900663BEA /* DamageViewController.swift */; };
+		BAFC98D91DA73D090073C908 /* DashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFC98D81DA73D090073C908 /* DashboardViewController.swift */; };
+		BAFC98DF1DA73D290073C908 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFC98DE1DA73D290073C908 /* MoreViewController.swift */; };
+		BAFC98E31DA73D3C0073C908 /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFC98E21DA73D3C0073C908 /* HelpViewController.swift */; };
+		BAFC98E51DA73D4F0073C908 /* SetLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFC98E41DA73D4F0073C908 /* SetLocationViewController.swift */; };
+		BAFC98E71DA73D5D0073C908 /* GoMobileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFC98E61DA73D5D0073C908 /* GoMobileViewController.swift */; };
+		BAFC98E91DA74A8A0073C908 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFC98E81DA74A8A0073C908 /* ProfileViewController.swift */; };
+		BAFC98EC1DA74B600073C908 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFC98EB1DA74B600073C908 /* MapKit.framework */; };
+		BAFC98EE1DA74D590073C908 /* TutorialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFC98ED1DA74D590073C908 /* TutorialsViewController.swift */; };
+		BAFC98F01DA74D6E0073C908 /* WashTypesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFC98EF1DA74D6E0073C908 /* WashTypesViewController.swift */; };
+		BAFC98F21DA74DD10073C908 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFC98F11DA74DD10073C908 /* SettingsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA9862021D6AEB570076F54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA9861E21D6AEB570076F54B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA9861E91D6AEB570076F54B;
+			remoteInfo = KneetlyWashers;
+		};
+		BA98620D1D6AEB570076F54B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA9861E21D6AEB570076F54B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA9861E91D6AEB570076F54B;
+			remoteInfo = KneetlyWashers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA068DCE1DAB777000ADB952 /* FavouritesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavouritesTableViewController.swift; sourceTree = "<group>"; };
+		BA1DFBCD1DB4646A0047B0AD /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		BA1DFBCE1DB464A70047B0AD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BA283FB11DB5AF1B00BB60F1 /* SearchingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchingViewController.swift; sourceTree = "<group>"; };
+		BA283FB31DB5B25800BB60F1 /* CancelWashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelWashViewController.swift; sourceTree = "<group>"; };
+		BA283FB51DB5D1BC00BB60F1 /* CosmosDistrib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CosmosDistrib.swift; sourceTree = "<group>"; };
+		BA3939791DC88158003C3703 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BA7BE5D41DA4AE4900D9AE84 /* Gibson-Bold-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gibson-Bold-Italic.otf"; sourceTree = "<group>"; };
+		BA7BE5D51DA4AE4900D9AE84 /* Gibson-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gibson-Bold.otf"; sourceTree = "<group>"; };
+		BA7BE5D61DA4AE4900D9AE84 /* Gibson-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gibson-Italic.otf"; sourceTree = "<group>"; };
+		BA7BE5D71DA4AE4900D9AE84 /* Gibson-Light-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gibson-Light-Italic.otf"; sourceTree = "<group>"; };
+		BA7BE5D81DA4AE4900D9AE84 /* Gibson-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gibson-Light.otf"; sourceTree = "<group>"; };
+		BA7BE5D91DA4AE4900D9AE84 /* Gibson-Semibold-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gibson-Semibold-Italic.otf"; sourceTree = "<group>"; };
+		BA7BE5DA1DA4AE4900D9AE84 /* Gibson-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gibson-SemiBold.otf"; sourceTree = "<group>"; };
+		BA7BE5DB1DA4AE4900D9AE84 /* Gibson.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gibson.otf; sourceTree = "<group>"; };
+		BA7BE5DC1DA5DC5900D9AE84 /* KneetlyWashers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KneetlyWashers.entitlements; sourceTree = "<group>"; };
+		BA9861EA1D6AEB570076F54B /* KneetlyWashers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KneetlyWashers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9861ED1D6AEB570076F54B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA9861EF1D6AEB570076F54B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA9861F21D6AEB570076F54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA9861F51D6AEB570076F54B /* KneetlyWashers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KneetlyWashers.xcdatamodel; sourceTree = "<group>"; };
+		BA9861F71D6AEB570076F54B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA9861FA1D6AEB570076F54B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA9861FC1D6AEB570076F54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA9862011D6AEB570076F54B /* KneetlyWashersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KneetlyWashersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9862051D6AEB570076F54B /* KneetlyWashersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KneetlyWashersTests.swift; sourceTree = "<group>"; };
+		BA9862071D6AEB570076F54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA98620C1D6AEB570076F54B /* KneetlyWashersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KneetlyWashersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA9862101D6AEB570076F54B /* KneetlyWashersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KneetlyWashersUITests.swift; sourceTree = "<group>"; };
+		BA9862121D6AEB570076F54B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAAC06741DB0B3D300E6CDE9 /* BadgesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BadgesTableViewController.swift; sourceTree = "<group>"; };
+		BAACDFE11DB606D60041D431 /* BookingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingsViewController.swift; sourceTree = "<group>"; };
+		BAACDFE31DB609600041D431 /* JobRequestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobRequestViewController.swift; sourceTree = "<group>"; };
+		BAACDFE51DB6098F0041D431 /* JobAcceptedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobAcceptedViewController.swift; sourceTree = "<group>"; };
+		BAACDFE71DB60B020041D431 /* WashingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WashingViewController.swift; sourceTree = "<group>"; };
+		BAC16C401DAB4C26003CE2CC /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		BAC688E71DAC8A0900663BEA /* DamageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DamageViewController.swift; sourceTree = "<group>"; };
+		BAFC98D81DA73D090073C908 /* DashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashboardViewController.swift; sourceTree = "<group>"; };
+		BAFC98DE1DA73D290073C908 /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		BAFC98E21DA73D3C0073C908 /* HelpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		BAFC98E41DA73D4F0073C908 /* SetLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetLocationViewController.swift; sourceTree = "<group>"; };
+		BAFC98E61DA73D5D0073C908 /* GoMobileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoMobileViewController.swift; sourceTree = "<group>"; };
+		BAFC98E81DA74A8A0073C908 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		BAFC98EB1DA74B600073C908 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		BAFC98ED1DA74D590073C908 /* TutorialsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialsViewController.swift; sourceTree = "<group>"; };
+		BAFC98EF1DA74D6E0073C908 /* WashTypesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WashTypesViewController.swift; sourceTree = "<group>"; };
+		BAFC98F11DA74DD10073C908 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA9861E71D6AEB570076F54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA39397A1DC88158003C3703 /* CoreLocation.framework in Frameworks */,
+				BA1DFBCF1DB464A70047B0AD /* libsqlite3.tbd in Frameworks */,
+				BAFC98EC1DA74B600073C908 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9861FE1D6AEB570076F54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9862091D6AEB570076F54B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA9861E11D6AEB570076F54B = {
+			isa = PBXGroup;
+			children = (
+				BA9861EC1D6AEB570076F54B /* KneetlyWashers */,
+				BA9862041D6AEB570076F54B /* KneetlyWashersTests */,
+				BA98620F1D6AEB570076F54B /* KneetlyWashersUITests */,
+				BA9861EB1D6AEB570076F54B /* Products */,
+				BAFC98EA1DA74B600073C908 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BA9861EB1D6AEB570076F54B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA9861EA1D6AEB570076F54B /* KneetlyWashers.app */,
+				BA9862011D6AEB570076F54B /* KneetlyWashersTests.xctest */,
+				BA98620C1D6AEB570076F54B /* KneetlyWashersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA9861EC1D6AEB570076F54B /* KneetlyWashers */ = {
+			isa = PBXGroup;
+			children = (
+				BA9861F11D6AEB570076F54B /* Main.storyboard */,
+				BA7BE5DC1DA5DC5900D9AE84 /* KneetlyWashers.entitlements */,
+				BA1DFBCD1DB4646A0047B0AD /* BridgingHeader.h */,
+				BA9861FC1D6AEB570076F54B /* Info.plist */,
+				BA9861ED1D6AEB570076F54B /* AppDelegate.swift */,
+				BAAC06741DB0B3D300E6CDE9 /* BadgesTableViewController.swift */,
+				BAACDFE11DB606D60041D431 /* BookingsViewController.swift */,
+				BA283FB31DB5B25800BB60F1 /* CancelWashViewController.swift */,
+				BA283FB51DB5D1BC00BB60F1 /* CosmosDistrib.swift */,
+				BAC688E71DAC8A0900663BEA /* DamageViewController.swift */,
+				BAFC98D81DA73D090073C908 /* DashboardViewController.swift */,
+				BA068DCE1DAB777000ADB952 /* FavouritesTableViewController.swift */,
+				BAFC98E61DA73D5D0073C908 /* GoMobileViewController.swift */,
+				BAFC98E21DA73D3C0073C908 /* HelpViewController.swift */,
+				BAC16C401DAB4C26003CE2CC /* HistoryTableViewController.swift */,
+				BAACDFE51DB6098F0041D431 /* JobAcceptedViewController.swift */,
+				BAACDFE31DB609600041D431 /* JobRequestViewController.swift */,
+				BAFC98DE1DA73D290073C908 /* MoreViewController.swift */,
+				BAFC98E81DA74A8A0073C908 /* ProfileViewController.swift */,
+				BA283FB11DB5AF1B00BB60F1 /* SearchingViewController.swift */,
+				BAFC98E41DA73D4F0073C908 /* SetLocationViewController.swift */,
+				BAFC98F11DA74DD10073C908 /* SettingsViewController.swift */,
+				BAFC98ED1DA74D590073C908 /* TutorialsViewController.swift */,
+				BA9861EF1D6AEB570076F54B /* ViewController.swift */,
+				BAACDFE71DB60B020041D431 /* WashingViewController.swift */,
+				BAFC98EF1DA74D6E0073C908 /* WashTypesViewController.swift */,
+				BA9861F71D6AEB570076F54B /* Assets.xcassets */,
+				BA9861F41D6AEB570076F54B /* KneetlyWashers.xcdatamodeld */,
+				BA9861F91D6AEB570076F54B /* LaunchScreen.storyboard */,
+				BA98621E1D6AEBD10076F54B /* Resources */,
+			);
+			path = KneetlyWashers;
+			sourceTree = "<group>";
+		};
+		BA9862041D6AEB570076F54B /* KneetlyWashersTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA9862051D6AEB570076F54B /* KneetlyWashersTests.swift */,
+				BA9862071D6AEB570076F54B /* Info.plist */,
+			);
+			path = KneetlyWashersTests;
+			sourceTree = "<group>";
+		};
+		BA98620F1D6AEB570076F54B /* KneetlyWashersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA9862101D6AEB570076F54B /* KneetlyWashersUITests.swift */,
+				BA9862121D6AEB570076F54B /* Info.plist */,
+			);
+			path = KneetlyWashersUITests;
+			sourceTree = "<group>";
+		};
+		BA98621E1D6AEBD10076F54B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BA7BE5D41DA4AE4900D9AE84 /* Gibson-Bold-Italic.otf */,
+				BA7BE5D51DA4AE4900D9AE84 /* Gibson-Bold.otf */,
+				BA7BE5D61DA4AE4900D9AE84 /* Gibson-Italic.otf */,
+				BA7BE5D71DA4AE4900D9AE84 /* Gibson-Light-Italic.otf */,
+				BA7BE5D81DA4AE4900D9AE84 /* Gibson-Light.otf */,
+				BA7BE5D91DA4AE4900D9AE84 /* Gibson-Semibold-Italic.otf */,
+				BA7BE5DA1DA4AE4900D9AE84 /* Gibson-SemiBold.otf */,
+				BA7BE5DB1DA4AE4900D9AE84 /* Gibson.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BAFC98EA1DA74B600073C908 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA3939791DC88158003C3703 /* CoreLocation.framework */,
+				BA1DFBCE1DB464A70047B0AD /* libsqlite3.tbd */,
+				BAFC98EB1DA74B600073C908 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA9861E91D6AEB570076F54B /* KneetlyWashers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9862151D6AEB570076F54B /* Build configuration list for PBXNativeTarget "KneetlyWashers" */;
+			buildPhases = (
+				BA9861E61D6AEB570076F54B /* Sources */,
+				BA9861E71D6AEB570076F54B /* Frameworks */,
+				BA9861E81D6AEB570076F54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KneetlyWashers;
+			productName = KneetlyWashers;
+			productReference = BA9861EA1D6AEB570076F54B /* KneetlyWashers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA9862001D6AEB570076F54B /* KneetlyWashersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA9862181D6AEB570076F54B /* Build configuration list for PBXNativeTarget "KneetlyWashersTests" */;
+			buildPhases = (
+				BA9861FD1D6AEB570076F54B /* Sources */,
+				BA9861FE1D6AEB570076F54B /* Frameworks */,
+				BA9861FF1D6AEB570076F54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA9862031D6AEB570076F54B /* PBXTargetDependency */,
+			);
+			name = KneetlyWashersTests;
+			productName = KneetlyWashersTests;
+			productReference = BA9862011D6AEB570076F54B /* KneetlyWashersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA98620B1D6AEB570076F54B /* KneetlyWashersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA98621B1D6AEB570076F54B /* Build configuration list for PBXNativeTarget "KneetlyWashersUITests" */;
+			buildPhases = (
+				BA9862081D6AEB570076F54B /* Sources */,
+				BA9862091D6AEB570076F54B /* Frameworks */,
+				BA98620A1D6AEB570076F54B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA98620E1D6AEB570076F54B /* PBXTargetDependency */,
+			);
+			name = KneetlyWashersUITests;
+			productName = KneetlyWashersUITests;
+			productReference = BA98620C1D6AEB570076F54B /* KneetlyWashersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA9861E21D6AEB570076F54B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Be IT Safe Pty Ltd";
+				TargetAttributes = {
+					BA9861E91D6AEB570076F54B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T624PAMMK9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					BA9862001D6AEB570076F54B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T624PAMMK9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA9861E91D6AEB570076F54B;
+					};
+					BA98620B1D6AEB570076F54B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = T624PAMMK9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BA9861E91D6AEB570076F54B;
+					};
+				};
+			};
+			buildConfigurationList = BA9861E51D6AEB570076F54B /* Build configuration list for PBXProject "KneetlyWashers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA9861E11D6AEB570076F54B;
+			productRefGroup = BA9861EB1D6AEB570076F54B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA9861E91D6AEB570076F54B /* KneetlyWashers */,
+				BA9862001D6AEB570076F54B /* KneetlyWashersTests */,
+				BA98620B1D6AEB570076F54B /* KneetlyWashersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA9861E81D6AEB570076F54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9861FB1D6AEB570076F54B /* LaunchScreen.storyboard in Resources */,
+				BA9861F81D6AEB570076F54B /* Assets.xcassets in Resources */,
+				BA9861F31D6AEB570076F54B /* Main.storyboard in Resources */,
+				BA7BE5DD1DA5E32100D9AE84 /* Gibson-Bold-Italic.otf in Resources */,
+				BA7BE5DE1DA5E32100D9AE84 /* Gibson-Bold.otf in Resources */,
+				BA7BE5DF1DA5E32100D9AE84 /* Gibson-Italic.otf in Resources */,
+				BA7BE5E01DA5E32100D9AE84 /* Gibson-Light-Italic.otf in Resources */,
+				BA7BE5E11DA5E32100D9AE84 /* Gibson-Light.otf in Resources */,
+				BA7BE5E21DA5E32100D9AE84 /* Gibson-Semibold-Italic.otf in Resources */,
+				BA7BE5E31DA5E32100D9AE84 /* Gibson-SemiBold.otf in Resources */,
+				BA7BE5E41DA5E32100D9AE84 /* Gibson.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9861FF1D6AEB570076F54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA98620A1D6AEB570076F54B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA9861E61D6AEB570076F54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAFC98E51DA73D4F0073C908 /* SetLocationViewController.swift in Sources */,
+				BAFC98DF1DA73D290073C908 /* MoreViewController.swift in Sources */,
+				BA283FB21DB5AF1B00BB60F1 /* SearchingViewController.swift in Sources */,
+				BAC688E81DAC8A0900663BEA /* DamageViewController.swift in Sources */,
+				BA283FB41DB5B25800BB60F1 /* CancelWashViewController.swift in Sources */,
+				BAACDFE41DB609600041D431 /* JobRequestViewController.swift in Sources */,
+				BA9861F01D6AEB570076F54B /* ViewController.swift in Sources */,
+				BAACDFE21DB606D60041D431 /* BookingsViewController.swift in Sources */,
+				BAFC98EE1DA74D590073C908 /* TutorialsViewController.swift in Sources */,
+				BAFC98E31DA73D3C0073C908 /* HelpViewController.swift in Sources */,
+				BA283FB61DB5D1BC00BB60F1 /* CosmosDistrib.swift in Sources */,
+				BAACDFE61DB6098F0041D431 /* JobAcceptedViewController.swift in Sources */,
+				BAFC98E91DA74A8A0073C908 /* ProfileViewController.swift in Sources */,
+				BAC16C411DAB4C26003CE2CC /* HistoryTableViewController.swift in Sources */,
+				BAFC98F21DA74DD10073C908 /* SettingsViewController.swift in Sources */,
+				BA9861EE1D6AEB570076F54B /* AppDelegate.swift in Sources */,
+				BAACDFE81DB60B020041D431 /* WashingViewController.swift in Sources */,
+				BA9861F61D6AEB570076F54B /* KneetlyWashers.xcdatamodeld in Sources */,
+				BAFC98E71DA73D5D0073C908 /* GoMobileViewController.swift in Sources */,
+				BAFC98D91DA73D090073C908 /* DashboardViewController.swift in Sources */,
+				BAAC06751DB0B3D300E6CDE9 /* BadgesTableViewController.swift in Sources */,
+				BAFC98F01DA74D6E0073C908 /* WashTypesViewController.swift in Sources */,
+				BA068DCF1DAB777000ADB952 /* FavouritesTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9861FD1D6AEB570076F54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9862061D6AEB570076F54B /* KneetlyWashersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA9862081D6AEB570076F54B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA9862111D6AEB570076F54B /* KneetlyWashersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA9862031D6AEB570076F54B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA9861E91D6AEB570076F54B /* KneetlyWashers */;
+			targetProxy = BA9862021D6AEB570076F54B /* PBXContainerItemProxy */;
+		};
+		BA98620E1D6AEB570076F54B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA9861E91D6AEB570076F54B /* KneetlyWashers */;
+			targetProxy = BA98620D1D6AEB570076F54B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA9861F11D6AEB570076F54B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9861F21D6AEB570076F54B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA9861F91D6AEB570076F54B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA9861FA1D6AEB570076F54B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA9862131D6AEB570076F54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA9862141D6AEB570076F54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA9862161D6AEB570076F54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KneetlyWashers/KneetlyWashers.entitlements;
+				DEVELOPMENT_TEAM = T624PAMMK9;
+				INFOPLIST_FILE = KneetlyWashers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beitsafe.KneetlyWashers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BA9862171D6AEB570076F54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = KneetlyWashers/KneetlyWashers.entitlements;
+				DEVELOPMENT_TEAM = T624PAMMK9;
+				INFOPLIST_FILE = KneetlyWashers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beitsafe.KneetlyWashers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BA9862191D6AEB570076F54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T624PAMMK9;
+				INFOPLIST_FILE = KneetlyWashersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beitsafe.KneetlyWashersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KneetlyWashers.app/KneetlyWashers";
+			};
+			name = Debug;
+		};
+		BA98621A1D6AEB570076F54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T624PAMMK9;
+				INFOPLIST_FILE = KneetlyWashersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beitsafe.KneetlyWashersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KneetlyWashers.app/KneetlyWashers";
+			};
+			name = Release;
+		};
+		BA98621C1D6AEB570076F54B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T624PAMMK9;
+				INFOPLIST_FILE = KneetlyWashersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beitsafe.KneetlyWashersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KneetlyWashers;
+			};
+			name = Debug;
+		};
+		BA98621D1D6AEB570076F54B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = T624PAMMK9;
+				INFOPLIST_FILE = KneetlyWashersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beitsafe.KneetlyWashersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = KneetlyWashers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA9861E51D6AEB570076F54B /* Build configuration list for PBXProject "KneetlyWashers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9862131D6AEB570076F54B /* Debug */,
+				BA9862141D6AEB570076F54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9862151D6AEB570076F54B /* Build configuration list for PBXNativeTarget "KneetlyWashers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9862161D6AEB570076F54B /* Debug */,
+				BA9862171D6AEB570076F54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA9862181D6AEB570076F54B /* Build configuration list for PBXNativeTarget "KneetlyWashersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA9862191D6AEB570076F54B /* Debug */,
+				BA98621A1D6AEB570076F54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA98621B1D6AEB570076F54B /* Build configuration list for PBXNativeTarget "KneetlyWashersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA98621C1D6AEB570076F54B /* Debug */,
+				BA98621D1D6AEB570076F54B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA9861F41D6AEB570076F54B /* KneetlyWashers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA9861F51D6AEB570076F54B /* KneetlyWashers.xcdatamodel */,
+			);
+			currentVersion = BA9861F51D6AEB570076F54B /* KneetlyWashers.xcdatamodel */;
+			path = KneetlyWashers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA9861E21D6AEB570076F54B /* Project object */;
+}
